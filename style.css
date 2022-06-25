@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: burlywood;
+  text-align: center;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.menu li {
+  display: inline;
+  margin: 7%;
+}
+.menu li:hover {
+  color: blueviolet;
+}
+
+.services li {
+  display: inline;
+  width: 33.333%;
+}
+
+.logo {
+  flex: 1;
+}
+.logo p {
+  font-size: 150%;
+}
+
+.menu {
+  flex: 4;
+}
+
+.services {
+  flex: 1;
+}
+
+.greeting {
+  padding-left: 6%;
+  height: 500px;
+  background-image: url("https://html.design/demo/sglass/images/slider-bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.greeting p {
+  font-size: 60px;
+}
+.greeting button {
+  background-color: black;
+  color: #fff;
+  display: block;
+  padding: 10px 18px;
+  margin-top: 8%;
+}
+
+.about-main-container {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  padding: 0 5%;
+  margin-top: 7%;
+}
+.about-main-container div {
+  flex-basis: 50%;
+}
+.about-content p {
+  color: #000;
+  font-size: 23px;
+  line-height: 40px;
+  margin: 30px 0px;
+}
+
+.about-content-title {
+  font-size: 60px !important;
+  color: #bcc4f2;
+  font-weight: bold;
+}
+.about-content-title span {
+  color: #000;
+}
+.about-content button {
+  background-color: #eb19b7;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.about-second-container {
+  background-color: #bcc4f2;
+  /* border: 10px solid black; */
+  /* padding: 20%; */
+  height: 150vh;
+}
+.about-second-title {
+  color: #000000;
+  font-weight: bold;
+  padding: 4%;
+  display: flex;
+  font-size: 300%;
+}
+.about-second-title p {
+  color: #000000;
+  margin-top: 5%;
+}
+.about-second-title span {
+  color: #6f6e6e;
+  margin-top: 5%;
+}
+
+.about-second-content button {
+  background-color: #eb19b7;
+  text-align: center;
+  border: none;
+  margin-top: 5%;
+  margin-left: 50%;
+  color: #fff;
+  font-size: 25px;
+}
+
+.about-box {
+  background-color: white;
+  height: 250px;
+  width: 25%;
+  border: 5px black solid;
+  border-radius: 8px;
+}
+
+.about-box img {
+  margin-left: 10%;
+  height: 50%;
+  margin-top: 10%;
+}
+
+.about-flexing {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.about-third-container {
+  display: flex;
+}
+.heading {
+  font-size: 500%;
+  color: #bcc4f2;
+}
+
+.heading span {
+  color: #29292a;
+  font-size: 70%;
+}
+.about-third-content {
+  margin-top: 7%;
+  margin-left: 5%;
+  line-height: 75px;
+}
+
+.about-third-content p {
+  font-size: larger;
+}
+
+.about-image {
+  padding-left: 6%;
+  height: 500px;
+  /* background-image: url("https://html.design/demo/sglass/images/quality-img.jpg"); */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
